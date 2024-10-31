@@ -1,0 +1,86 @@
+ /* Színek és alapstílusok */
+ :root {
+    --gotham-night: #060D19; 
+    --burnt-laugh: #5E2419; 
+    --smoke-haze: #D28B0C; 
+    --clown-mask: #E7E8E8; 
+    --teal-twilight: #00524C; 
+  }
+  
+  body {
+    background-color: var(--gotham-night);
+    color: var(--clown-mask);
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  li {
+    text-decoration: none;
+  }
+
+  a {
+    color: var(--smoke-haze);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  a:hover {
+    color: var(--burnt-laugh);
+  }
+
+  /* Banner */
+  .banner img {
+    width: 500px;
+    border: 20px solid white;
+    border-radius: 5px;
+  }
+
+  .banner-div {
+    font-size: 30px;
+    display: flex;
+  }
+
+  .banner-div div {
+    align-items: center;
+  }
+
+  /* Fejléc és Címek */
+  h1, .main-title {
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: var(--smoke-haze);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2.5rem;
+    color: var(--teal-twilight);
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    color: var(--burnt-laugh);
+  }
+
+  /* Bekezdések és leírások */
+  p, .description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+
+  /* Navigációs elemek */
+  nav a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+  }
+
+  /* Kiemelések */
+  strong {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: var(--smoke-haze);
+  }
