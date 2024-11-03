@@ -34,7 +34,9 @@ html{
   nav ul{
     display: flex;
   }
-
+nav img{
+  width: 120px;
+}
 
   li {
     text-decoration: none;
