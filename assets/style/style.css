@@ -26,15 +26,29 @@ html{
     font-family: 'Open Sans', sans-serif;
   }
  
+  #navbar{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+  }
   nav{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #00524C;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
   }
   nav ul{
     display: flex;
   }
-nav img{
+
+  nav ul li{
+    margin: 0 1.2rem;
+  }
+.logo{
   width: 120px;
 }
 
@@ -54,24 +68,32 @@ nav img{
   }
 
   /* Banner */
-  .banner img , .polaroid {
-    width: 500px;
+   .polaroid {
+    width: 600px;
     border: 20px solid white;
     border-radius: 5px;
   }
 
-  .banner-div {
+  .banner {
     font-size: 30px;
     display: flex;
+    margin: 20px 100px;
   }
 
-  .banner-div div {
+  .banner div {
     align-items: center;
+  }
+
+  .banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 50px;
   }
 
   /* Fejléc és Címek */
   h1{
-    font-size: 3rem;
+    font-size: 3.8rem;
     font-family: 'Bebas Neue', sans-serif;
     color: var(--smoke-haze);
     text-transform: uppercase;
@@ -80,21 +102,21 @@ nav img{
 
   h2 {
     font-family: 'Anton', sans-serif;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: var(--teal-twilight);
     text-transform: uppercase;
   }
 
   h3 {
     font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--burnt-laugh);
   }
 
   /* Bekezdések és leírások */
   p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 1.6;
   }
 
